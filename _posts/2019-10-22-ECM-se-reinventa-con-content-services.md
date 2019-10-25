@@ -2,7 +2,7 @@
 layout: post
 title: ECM se reinventa con Content Services
 featured: true
-tags: [ ecm, content-services, gestion-documental ]
+tags: ecm content-services gestion-documental
 ---
 
 El término ECM se definió y popularizó en la segunda mitad de la década del '90. Principalmente por la necesidad de distinguir [Content Management de Web Content Management](https://newton.typepad.com/content/2005/08/index.html). De alguna manera siempre ha existido la necesidad hacerse cargo de la captura, gestión, almacenamiento, preservación y distribución del [contenido](https://en.wikipedia.org/wiki/Content_(media)). Lo cierto es que para el año 2000 estaba bien establecido el mercado del ECM y algunas grandes empresas habían logrado liderar con sus productos. [FileNet](https://es.wikipedia.org/wiki/FileNet), [Documentun](https://en.wikipedia.org/wiki/Documentum), [Sharepoint](https://es.wikipedia.org/wiki/Microsoft_SharePoint) fueron algunos de los principales sistemas que se fortalecieron durante ese período. Otros como [Nuxeo](https://es.wikipedia.org/wiki/Nuxeo) y [Alfresco](https://es.wikipedia.org/wiki/Alfresco) introdujeron una nueva variable al escenario, el modelo Open Source. 

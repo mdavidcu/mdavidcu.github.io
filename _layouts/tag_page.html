@@ -11,7 +11,7 @@ layout: default
   </div>
 
   <div class='o-grid'>
-    {% for post in page.posts %}
+    {% for post in site.tags[page.tag] %}
       {% include post-card.liquid %}
     {% endfor %}
   </div>
