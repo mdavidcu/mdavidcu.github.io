@@ -1,5 +1,8 @@
 ---
 layout: post
+title: ECM se reinventa con content services
+featured: true
+tags: [frontpage, jekyll, blog]
 ---
 
 <!--Sería imposible hablar de Content Services sin antes mencionar [Enterprise Content Management (ECM)](https://en.wikipedia.org/wiki/Enterprise_content_management), uno de los tantos términos que se le han acuñado a la captura, gestión, almacenamiento, preservación y distribución del [contentido](https://en.wikipedia.org/wiki/Content_(media)). Muchos podemos coincidir que estas funciones son transversales casi a cualquier solución empresarial. Los procesos de negocio y los contenidos tienen un punto de intersección entre sí: documentar una transacción de negocio. Y es que la forma en que las personas consumimos la información es a través del contenido. Las empresas tradicionalmente han gestionado su información de manera manual pero con la llegada de la era digital eso cambiaría diametralmente.-->

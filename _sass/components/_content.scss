@@ -1,0 +1,23 @@
+/*------------------------------------*\
+  Components > Content
+\*------------------------------------*/
+
+.c-content {
+  // text-align: justify;
+  text-indent: 1em;
+  hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.c-content {
+  a:not(.c-btn) {
+    text-decoration: underline;
+    text-decoration-skip: ink;
+
+    @include attention() {
+      color: $color-brand;
+    }
+  }
+}

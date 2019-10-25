@@ -146,6 +146,8 @@ GEM
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
     jekyll-swiss (0.4.0)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-theme-architect (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
@@ -186,6 +188,9 @@ GEM
     jekyll-theme-time-machine (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
+    jekyll-theme-type (1.2)
+      jekyll (~> 3.8.5)
+      jekyll-paginate (~> 1.1.0)
     jekyll-titles-from-headings (0.5.1)
       jekyll (~> 3.3)
     jekyll-watch (2.2.1)
@@ -215,6 +220,7 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
+    nuggets (1.6.0)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
@@ -251,6 +257,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-paginate
+  jekyll-tagging
+  jekyll-theme-type (~> 1.2)
   jekyll-whiteglass
 
 RUBY VERSION

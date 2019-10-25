@@ -23,29 +23,41 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://korutx.github.io" # the base hostname & protocol for your site
 twitter_username: korutx
 github_username:  korutx
+baseurl:     '' # The subpath of your site, e.g. /blog
+twitter:     ''
+github:      'korutx'
+instagram:   'korutx'
+facebook:    ''
 
-# Build settings
-markdown: kramdown
-# theme: minima
-# theme: jekyll-whiteglass
-# remote_theme: yous/whiteglass
+markdown:  kramdown
 remote_theme: aspirethemes/type
+permalink: pretty
+paginate:  60
+
+sass:
+  style: compressed
+
 plugins:
-  - jekyll-archives
   - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll/tagging
 
-permalink: /:year/:month/:day/:title/
-paginate_path: /posts/:num/
-paginate: 5
+include:
+  - _pages
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: category_archives
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
 host: 0.0.0.0
