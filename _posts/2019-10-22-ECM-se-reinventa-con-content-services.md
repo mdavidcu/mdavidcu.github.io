@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ECM se reinventa con content services
+title: ECM se reinventa con Content Services
 featured: true
 tags: [frontpage, jekyll, blog]
 ---
