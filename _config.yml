@@ -28,7 +28,8 @@ github_username:  korutx
 markdown: kramdown
 # theme: minima
 # theme: jekyll-whiteglass
-remote_theme: yous/whiteglass
+# remote_theme: yous/whiteglass
+remote_theme: aspirethemes/type
 plugins:
   - jekyll-archives
   - jekyll-paginate
