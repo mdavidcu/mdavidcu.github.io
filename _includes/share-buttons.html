@@ -3,19 +3,22 @@
 {% else %}
     {% assign pageurl = page.url %}
 {% endif %}
-
+{% assign post_url = site.url | append: pageurl | url_encode: %}
+{% assign twitter_text = '"' | append: page.title | append: '" por @korutx' | url_encode: %}
+{% assign twitter_url = "http://twitter.com/share?url=" | append: post_url | append: "&text=" | append: twitter_text %}
+{% assign linkedin_url = "https://www.linkedin.com/shareArticle?mini=true&url=" | append: post_url  %} 
 <style>
 #share-buttons > a:hover{ text-decoration: none }
 </style>
 
 <div id="share-buttons" style="display: inline-block">
-    <a href="http://www.facebook.com/share.php?u={{ site.url }}{{ pageurl }}" target="_blank" title="Compartir en Facebook">
+    <a href="http://www.facebook.com/share.php?u={{ post_url }}" target="_blank" title="Compartir en Facebook">
         <span data-icon="ei-sc-facebook" data-size="m"></span>
     </a>
-    <a href='http://twitter.com/share?url={{ site.url }}{{ pageurl }}&text="{{page.title}}" por @korutx' target="_blank" title="Compartir en Twitter">
+    <a href="{{ twitter_url }}" target="_blank" title="Compartir en Twitter">
         <span data-icon="ei-sc-twitter" data-size="m"></span>
     </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ pageurl }}&title=&summary=&source=" target="_blank" title="Compartir en Linkedin">
+    <a href="{{ linkedin_url }}" target="_blank" title="Compartir en Linkedin">
         <span data-icon="ei-sc-linkedin" data-size="m"></span>
     </a>
    
