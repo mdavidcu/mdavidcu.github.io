@@ -257,6 +257,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-github-metadata
   jekyll-paginate
   jekyll-tagging
   jekyll-theme-type (~> 1.2)

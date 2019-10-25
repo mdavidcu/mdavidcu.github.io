@@ -39,7 +39,7 @@ sass:
 
 plugins:
   - jekyll-paginate
-  - jekyll/tagging
+  - jekyll-tagging
 
 include:
   - _pages
